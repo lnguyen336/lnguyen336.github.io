@@ -1,0 +1,94 @@
+a.navbar-brand{
+  margin-left: 10px;
+  padding: 10px;
+  background-color: lightseagreen;
+  color: white !important;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+h1, h2, h3{
+  color: lightseagreen;
+}
+
+h1{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h2{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+h3{
+  font-size: 22px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.img-thumbnail{
+  padding:5px;
+  margin:5px;
+  border: solid white;
+}
+
+p{
+ color:gray;
+ font-size: large;
+ padding:10px;
+}
+
+body{
+  background-color: #e8e8e8;
+}
+.col-md-12{
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom:40px;
+}
+
+.highlight{
+  border: 3px solid rgb(188, 233, 85);
+}
+
+.navbar{
+  padding-top:0px;
+  padding-bottom: 0px;
+  padding-right:40px;
+  background-color:w#e8e8e8;
+}
+
+.nav-item.dropdown.show {
+  background-color: #ddd;
+}
+
+.dropdown-menu {
+  margin: 0;
+}
+
+.content {
+  padding-top: 50px;
+  padding-bottom: 80px;
+  overflow: hidden;
+}
+
+.content.bg-white {
+  margin-top: 15px;
+}
+
+@media(max-width:767px){
+  .navbar.bg-dark{
+      background-color: #e8e8e8!important;    
+  }
+
+  .navbar-collapse{
+      background-color: #f8f9fa;
+  }
+  .navbar{
+      padding:inherit;
+  }
+}
